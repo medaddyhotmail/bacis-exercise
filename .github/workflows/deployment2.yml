@@ -1,7 +1,7 @@
 name: Deployment Exercise 2
 on: push
 
-job:
+jobs:
   lint:
     runs-on: ubuntu-latest
 
