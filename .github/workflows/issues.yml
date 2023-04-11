@@ -3,5 +3,5 @@ on: issues
 
 jobs:
   output-info:
-  runs-on:  ubuntu-latest
+  runs-on: ubuntu-latest
   run: echo "${{ toJSON(github.event )}}"
